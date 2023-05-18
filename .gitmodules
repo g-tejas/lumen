@@ -16,3 +16,6 @@
 [submodule "glad"]
 	path = external/glad
 	url = https://github.com/Dav1dde/glad/
+[submodule "imgui-command-palette"]
+	path = external/imgui-command-palette
+	url = https://github.com/g-tejas/imgui-command-palette

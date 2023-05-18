@@ -15,6 +15,8 @@ set(GUI_SOURCES
   "implot/implot.cpp"
   "implot/implot_items.cpp"
   "implot/implot_demo.cpp"
+  "imgui-command-palette/imcmd_command_palette.cpp"
+  "imgui-command-palette/imcmd_fuzzy_search.cpp"
   )
 
 find_package(OpenGL REQUIRED)
@@ -27,6 +29,7 @@ target_include_directories(gui PUBLIC
   "${CMAKE_CURRENT_SOURCE_DIR}/imgui"
   "${CMAKE_CURRENT_SOURCE_DIR}/imgui/backends/"
   "${CMAKE_CURRENT_SOURCE_DIR}/implot"
+  "${CMAKE_CURRENT_SOURCE_DIR}/imgui-command-palette"
   )
 
 target_link_libraries(gui PUBLIC glfw OpenGL::GL)
