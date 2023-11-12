@@ -15,8 +15,6 @@ set(GUI_SOURCES
   "implot/implot.cpp"
   "implot/implot_items.cpp"
   "implot/implot_demo.cpp"
-  "imgui-command-palette/imcmd_command_palette.cpp"
-  "imgui-command-palette/imcmd_fuzzy_search.cpp"
   )
 
 find_package(OpenGL REQUIRED)
